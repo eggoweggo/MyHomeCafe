@@ -71,6 +71,7 @@ public class PlayerController : MonoBehaviour
     void OnMove(InputValue movementValue) {
         movementInput = movementValue.Get<Vector2>();
 
+        // Only set the animation direction if the player is trying to move
         if(movementInput != Vector2.zero) {
             animator.SetFloat("XInput", movementInput.x);
             animator.SetFloat("YInput", movementInput.y);
