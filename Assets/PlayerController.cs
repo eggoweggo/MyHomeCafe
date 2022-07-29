@@ -10,10 +10,10 @@ public class PlayerController : MonoBehaviour
     public float collisionOffset = 0.05f;
     public ContactFilter2D movementFilter;
 
-    Vector2 movementInput;
-    Rigidbody2D rb;
-    Animator animator;
-    List<RaycastHit2D> castCollisions = new List<RaycastHit2D>();
+    private Vector2 movementInput;
+    private Rigidbody2D rb;
+    private Animator animator;
+    private List<RaycastHit2D> castCollisions = new List<RaycastHit2D>();
 
     // Start is called before the first frame update
     void Start()
@@ -70,5 +70,10 @@ public class PlayerController : MonoBehaviour
 
     void OnMove(InputValue movementValue) {
         movementInput = movementValue.Get<Vector2>();
+
+        if(movementInput != Vector2.zero) {
+            animator.SetFloat("XInput", movementInput.x);
+            animator.SetFloat("YInput", movementInput.y);
+        }
     }
 }
