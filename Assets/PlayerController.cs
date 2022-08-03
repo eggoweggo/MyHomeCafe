@@ -6,6 +6,7 @@ using UnityEngine.InputSystem;
 // Takes and handles input and movement for a player character
 public class PlayerController : MonoBehaviour
 {   
+    public VectorValue startingPosition;
     public float moveSpeed = 1f;
     public float collisionOffset = 0.05f;
     public ContactFilter2D movementFilter;
@@ -20,6 +21,7 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        transform.position = startingPosition.initialValue;
     }
 
 

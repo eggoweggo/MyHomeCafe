@@ -11169,6 +11169,18 @@ PrefabInstance:
       propertyPath: sceneToLoad
       value: fridge
       objectReference: {fileID: 0}
+    - target: {fileID: 7317656014018196047, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
+      propertyPath: playerStorage
+      value: 
+      objectReference: {fileID: 11400000, guid: b8d1a25f9990f4175988c13324260d5b, type: 2}
+    - target: {fileID: 7317656014018196047, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
+      propertyPath: playerPosition.x
+      value: -1.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 7317656014018196047, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
+      propertyPath: playerPosition.y
+      value: -0.26
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
 --- !u!1001 &8521119006463181283
@@ -11178,6 +11190,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1664474470607167577, guid: bc90e6d95f9f0442c810a616d7047f01, type: 3}
+      propertyPath: startingPosition
+      value: 
+      objectReference: {fileID: 11400000, guid: b8d1a25f9990f4175988c13324260d5b, type: 2}
     - target: {fileID: 3752826054012534955, guid: bc90e6d95f9f0442c810a616d7047f01, type: 3}
       propertyPath: m_Name
       value: Player
