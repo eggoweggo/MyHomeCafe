@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/fridge.unity
     guid: 68dffd0c6dede47afaca0300c8e0c935
+  - enabled: 1
+    path: Assets/Scenes/Pantry.unity
+    guid: 78117a8aaa45f4bdab7b97014a65ea23
   m_configObjects: {}
