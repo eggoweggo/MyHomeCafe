@@ -5562,6 +5562,95 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1001 &1198309090
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6732053939714214283, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6732053939714214283, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.09887662
+      objectReference: {fileID: 0}
+    - target: {fileID: 6732053939714214283, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.079595
+      objectReference: {fileID: 0}
+    - target: {fileID: 6732053939714214283, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.004723055
+      objectReference: {fileID: 0}
+    - target: {fileID: 6732053939714214283, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6732053939714214283, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6732053939714214283, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6732053939714214283, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6732053939714214283, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6732053939714214283, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6732053939714214283, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6732053939714214324, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
+      propertyPath: m_Size.x
+      value: 0.33006382
+      objectReference: {fileID: 0}
+    - target: {fileID: 6732053939714214324, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
+      propertyPath: m_Size.y
+      value: 0.4596836
+      objectReference: {fileID: 0}
+    - target: {fileID: 6732053939714214324, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
+      propertyPath: m_Offset.x
+      value: 1.6072917
+      objectReference: {fileID: 0}
+    - target: {fileID: 6732053939714214324, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.0046093166
+      objectReference: {fileID: 0}
+    - target: {fileID: 6732053939714214325, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
+      propertyPath: m_Name
+      value: Scene Transition
+      objectReference: {fileID: 0}
+    - target: {fileID: 7317656014018196047, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
+      propertyPath: sceneToLoad
+      value: cafe scene
+      objectReference: {fileID: 0}
+    - target: {fileID: 7317656014018196047, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
+      propertyPath: playerStorage
+      value: 
+      objectReference: {fileID: 11400000, guid: b8d1a25f9990f4175988c13324260d5b, type: 2}
+    - target: {fileID: 7317656014018196047, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
+      propertyPath: playerPosition.x
+      value: -1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7317656014018196047, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
+      propertyPath: playerPosition.y
+      value: -0.24
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
 --- !u!1 &1324145559
 GameObject:
   m_ObjectHideFlags: 0
