@@ -4540,6 +4540,87 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &882632764
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6732053939714214283, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6732053939714214283, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.09887662
+      objectReference: {fileID: 0}
+    - target: {fileID: 6732053939714214283, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.079595
+      objectReference: {fileID: 0}
+    - target: {fileID: 6732053939714214283, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.004723055
+      objectReference: {fileID: 0}
+    - target: {fileID: 6732053939714214283, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6732053939714214283, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6732053939714214283, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6732053939714214283, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6732053939714214283, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6732053939714214283, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6732053939714214283, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6732053939714214324, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
+      propertyPath: m_Size.x
+      value: 0.2607726
+      objectReference: {fileID: 0}
+    - target: {fileID: 6732053939714214324, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
+      propertyPath: m_Offset.x
+      value: -1.7898226
+      objectReference: {fileID: 0}
+    - target: {fileID: 6732053939714214325, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
+      propertyPath: m_Name
+      value: Scene Transition (to pantry)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7317656014018196047, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
+      propertyPath: sceneToLoad
+      value: pantry
+      objectReference: {fileID: 0}
+    - target: {fileID: 7317656014018196047, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
+      propertyPath: playerStorage
+      value: 
+      objectReference: {fileID: 11400000, guid: b8d1a25f9990f4175988c13324260d5b, type: 2}
+    - target: {fileID: 7317656014018196047, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
+      propertyPath: playerPosition.x
+      value: 1.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 7317656014018196047, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
+      propertyPath: playerPosition.y
+      value: -0.14
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
 --- !u!1 &1073224586
 GameObject:
   m_ObjectHideFlags: 0
@@ -11163,7 +11244,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6732053939714214325, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
       propertyPath: m_Name
-      value: Scene Transition
+      value: Scene Transition (to fridge)
       objectReference: {fileID: 0}
     - target: {fileID: 7317656014018196047, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
       propertyPath: sceneToLoad
