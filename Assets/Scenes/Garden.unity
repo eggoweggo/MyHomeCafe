@@ -8063,8 +8063,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d8ca8f61cc594dcd897b497bd3f3237, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  strawberry_text: {fileID: 950986409}
-  strawberry: {fileID: 1945248974}
+  ingredient_text: {fileID: 950986409}
+  ingredient: {fileID: 1945248974}
 --- !u!1001 &2964448343557003031
 PrefabInstance:
   m_ObjectHideFlags: 0
