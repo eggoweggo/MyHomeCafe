@@ -9,25 +9,6 @@ public class DetectObject : MonoBehaviour
     [SerializeField]
     private GameObject ingredient;
     private bool playerInRange;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        // // var strawberry_text = GameObject.Find("strawberry_text");
-        // // Input.GetKey(KeyCode.E) && 
-        // if(playerInRange && !ingredient_text.activeInHierarchy)
-        // {
-        //     ingredient_text.SetActive(true);
-        // } else 
-        // {
-        //     ingredient_text.SetActive(false);
-        // }
-    }
     
     private void OnTriggerEnter2D(Collider2D other) 
     {
