@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+
 // Takes and handles input and movement for a player character
 public class PlayerController : MonoBehaviour
 {   
@@ -15,6 +16,8 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb;
     private Animator animator;
     private List<RaycastHit2D> castCollisions = new List<RaycastHit2D>();
+    public Inventory playerInventory;
+    public SpriteRenderer heldIngredientSprite;
 
     // Start is called before the first frame update
     public void Start()
@@ -73,5 +76,10 @@ public class PlayerController : MonoBehaviour
             animator.SetFloat("XInput", movementInput.x);
             animator.SetFloat("YInput", movementInput.y);
         }
+    }
+
+    public void holdIngredient()
+    {
+        heldIngredientSprite.sprite = playerInventory.currentIngredient.ingredientSprite;
     }
 }
