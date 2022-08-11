@@ -258,6 +258,10 @@ PrefabInstance:
       propertyPath: m_SortingLayerID
       value: 234492581
       objectReference: {fileID: 0}
+    - target: {fileID: 1664474470607167577, guid: bc90e6d95f9f0442c810a616d7047f01, type: 3}
+      propertyPath: startingPosition
+      value: 
+      objectReference: {fileID: 11400000, guid: b8d1a25f9990f4175988c13324260d5b, type: 2}
     - target: {fileID: 3752826054012534955, guid: bc90e6d95f9f0442c810a616d7047f01, type: 3}
       propertyPath: m_Name
       value: Player
@@ -2197,6 +2201,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d8ca8f61cc594dcd897b497bd3f3237, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerInventory: {fileID: 0}
+  contents: {fileID: 0}
   ingredient_text: {fileID: 2068675506}
   ingredient: {fileID: 1258122614}
 --- !u!1 &1310792697
@@ -8236,6 +8242,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d8ca8f61cc594dcd897b497bd3f3237, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerInventory: {fileID: 0}
+  contents: {fileID: 0}
   ingredient_text: {fileID: 950986409}
   ingredient: {fileID: 1945248974}
 --- !u!1 &2068675506
