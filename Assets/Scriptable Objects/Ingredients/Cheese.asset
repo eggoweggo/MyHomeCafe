@@ -9,9 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0723bd11f963b40348d820e8b0ff3bc0, type: 3}
-  m_Name: PlayerInventory
+  m_Script: {fileID: 11500000, guid: fcf08391da8dc4511b4079f06d00d256, type: 3}
+  m_Name: Cheese
   m_EditorClassIdentifier: 
-  currentIngredient: {fileID: 11400000, guid: b915d53b22e854033ae1cb2b73e83d7f, type: 2}
-  ingredients:
-  - {fileID: 11400000, guid: b915d53b22e854033ae1cb2b73e83d7f, type: 2}
+  ingredientSprite: {fileID: 21300000, guid: 4e71900b015704d9c80ad3f25b5d432d, type: 3}
