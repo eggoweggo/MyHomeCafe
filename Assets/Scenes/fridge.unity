@@ -131,9 +131,21 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1664474470607167577, guid: bc90e6d95f9f0442c810a616d7047f01, type: 3}
+      propertyPath: playerInventory
+      value: 
+      objectReference: {fileID: 11400000, guid: bdf1bbd519f7d40bd82be0d927ea9a42, type: 2}
+    - target: {fileID: 1664474470607167577, guid: bc90e6d95f9f0442c810a616d7047f01, type: 3}
       propertyPath: startingPosition
       value: 
       objectReference: {fileID: 11400000, guid: b8d1a25f9990f4175988c13324260d5b, type: 2}
+    - target: {fileID: 1664474470607167577, guid: bc90e6d95f9f0442c810a616d7047f01, type: 3}
+      propertyPath: heldIngredientSprite
+      value: 
+      objectReference: {fileID: 1539825257032825411, guid: 479794463823d43059b099eb1204c28a, type: 3}
+    - target: {fileID: 3012688163853799737, guid: bc90e6d95f9f0442c810a616d7047f01, type: 3}
+      propertyPath: signalEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1492626830}
     - target: {fileID: 3752826054012534955, guid: bc90e6d95f9f0442c810a616d7047f01, type: 3}
       propertyPath: m_Name
       value: Player
@@ -184,6 +196,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bc90e6d95f9f0442c810a616d7047f01, type: 3}
+--- !u!114 &203562489 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1664474470607167577, guid: bc90e6d95f9f0442c810a616d7047f01, type: 3}
+  m_PrefabInstance: {fileID: 203562488}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97b4994889d414794a8b0eb4fb413735, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &203562490 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4383354073900042499, guid: bc90e6d95f9f0442c810a616d7047f01, type: 3}
+  m_PrefabInstance: {fileID: 203562488}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &490939801
 GameObject:
   m_ObjectHideFlags: 0
@@ -4439,6 +4467,76 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1001 &1492626829
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 203562490}
+    m_Modifications:
+    - target: {fileID: 1539825257032825410, guid: 479794463823d43059b099eb1204c28a, type: 3}
+      propertyPath: signalEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 203562489}
+    - target: {fileID: 1539825257032825410, guid: 479794463823d43059b099eb1204c28a, type: 3}
+      propertyPath: signalEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RaiseItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539825257032825436, guid: 479794463823d43059b099eb1204c28a, type: 3}
+      propertyPath: m_Name
+      value: Held Item
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539825257032825437, guid: 479794463823d43059b099eb1204c28a, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539825257032825437, guid: 479794463823d43059b099eb1204c28a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539825257032825437, guid: 479794463823d43059b099eb1204c28a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.153
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539825257032825437, guid: 479794463823d43059b099eb1204c28a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539825257032825437, guid: 479794463823d43059b099eb1204c28a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539825257032825437, guid: 479794463823d43059b099eb1204c28a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539825257032825437, guid: 479794463823d43059b099eb1204c28a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539825257032825437, guid: 479794463823d43059b099eb1204c28a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539825257032825437, guid: 479794463823d43059b099eb1204c28a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539825257032825437, guid: 479794463823d43059b099eb1204c28a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539825257032825437, guid: 479794463823d43059b099eb1204c28a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 479794463823d43059b099eb1204c28a, type: 3}
+--- !u!1 &1492626830 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1539825257032825436, guid: 479794463823d43059b099eb1204c28a, type: 3}
+  m_PrefabInstance: {fileID: 1492626829}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1718964736
 GameObject:
   m_ObjectHideFlags: 0
@@ -7350,6 +7448,42 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scene Transition
       objectReference: {fileID: 0}
+    - target: {fileID: 6862358277186163693, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
+      propertyPath: signal
+      value: 
+      objectReference: {fileID: 11400000, guid: cd41cba1ed72b48f79879674732dc0d6, type: 2}
+    - target: {fileID: 6862358277186163693, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
+      propertyPath: signalEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6862358277186163693, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
+      propertyPath: signalEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6862358277186163693, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
+      propertyPath: signalEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 203562489}
+    - target: {fileID: 6862358277186163693, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
+      propertyPath: signalEvent.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6862358277186163693, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
+      propertyPath: signalEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RaiseItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 6862358277186163693, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
+      propertyPath: signalEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PlayerController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6862358277186163693, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
+      propertyPath: signalEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7317656014018196047, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
+      propertyPath: raiseItem
+      value: 
+      objectReference: {fileID: 11400000, guid: cd41cba1ed72b48f79879674732dc0d6, type: 2}
     - target: {fileID: 7317656014018196047, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
       propertyPath: sceneToLoad
       value: cafe scene
@@ -7358,6 +7492,10 @@ PrefabInstance:
       propertyPath: playerStorage
       value: 
       objectReference: {fileID: 11400000, guid: b8d1a25f9990f4175988c13324260d5b, type: 2}
+    - target: {fileID: 7317656014018196047, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
+      propertyPath: playerInventory
+      value: 
+      objectReference: {fileID: 11400000, guid: bdf1bbd519f7d40bd82be0d927ea9a42, type: 2}
     - target: {fileID: 7317656014018196047, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
       propertyPath: playerPosition.x
       value: 1.32

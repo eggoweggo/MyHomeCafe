@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6732053939714214283}
   - component: {fileID: 6732053939714214324}
   - component: {fileID: 7317656014018196047}
+  - component: {fileID: 6862358277186163693}
   m_Layer: 0
   m_Name: Scene Transition
   m_TagString: Untagged
@@ -72,3 +73,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 
+  playerPosition: {x: 0, y: 0}
+  playerStorage: {fileID: 0}
+  raiseItem: {fileID: 0}
+  playerInventory: {fileID: 0}
+--- !u!114 &6862358277186163693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6732053939714214325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6459b195d3cf14f139dce909ac83dff8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  signal: {fileID: 0}
+  signalEvent:
+    m_PersistentCalls:
+      m_Calls: []

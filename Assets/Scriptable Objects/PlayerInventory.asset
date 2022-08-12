@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0723bd11f963b40348d820e8b0ff3bc0, type: 3}
   m_Name: PlayerInventory
   m_EditorClassIdentifier: 
-  currentIngredient: {fileID: 0}
-  ingredients: []
+  currentIngredient: {fileID: 11400000, guid: 6c83eb533974444b6a9a0c2cc4b8a962, type: 2}
+  ingredients:
+  - {fileID: 11400000, guid: 6c83eb533974444b6a9a0c2cc4b8a962, type: 2}

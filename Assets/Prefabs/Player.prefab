@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 3919347831696261889}
   - component: {fileID: 7926226488232968070}
   - component: {fileID: 1873906345645568560}
+  - component: {fileID: 3012688163853799737}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -131,6 +132,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97b4994889d414794a8b0eb4fb413735, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  startingPosition: {fileID: 0}
   moveSpeed: 1
   collisionOffset: 0.01
   movementFilter:
@@ -147,6 +149,9 @@ MonoBehaviour:
     maxDepth: 0
     minNormalAngle: 0
     maxNormalAngle: 0
+  playerInventory: {fileID: 0}
+  heldIngredientSprite: {fileID: 0}
+  currentIngredient: {fileID: 0}
 --- !u!50 &3919347831696261889
 Rigidbody2D:
   serializedVersion: 4
@@ -214,3 +219,31 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &3012688163853799737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3752826054012534955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6459b195d3cf14f139dce909ac83dff8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  signal: {fileID: 11400000, guid: cd41cba1ed72b48f79879674732dc0d6, type: 2}
+  signalEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
