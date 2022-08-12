@@ -19,8 +19,7 @@ public class DetectObject : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.E) && playerInRange) 
         {
             SwapIngredient();
-            // raiseItem.Raise();
-
+            raiseItem.Raise();
         }
     }
     

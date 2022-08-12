@@ -25,25 +25,3 @@ public class Inventory : ScriptableObject
         }
     }
 }
-
- // check if it is a different ingredient than the one you are trying to pick up
-            // if(!ingredients.Contains(ingredientToAdd))
-            // {
-            //     // swap the ingredient
-            //     ingredients.FirstOrDefault = ingredientToAdd;
-            //     Debug.Log("You just swapped the ingredient in your inventory");
-            // // } else if (ingredients.Contains(ingredientToAdd))
-            // // {
-            // //     // if you already have the same ingredient you are trying to add
-            // //     ingredients.FirstOrDefault = ingredientToAdd;
-            // // }
-
-// if(Inventory.Count == 1) 
-//             {
-//                 // if ingredient already in inventory swap the items
-//                 SwapIngredient();
-//             } else 
-//             {
-//                 // no held ingredient/inventory empty then add item to inventory
-//                 AddIngredient();
-//             }
