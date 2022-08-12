@@ -77,9 +77,33 @@ public class PlayerController : MonoBehaviour
             animator.SetFloat("YInput", movementInput.y);
         }
     }
-
-    public void holdIngredient()
-    {
-        heldIngredientSprite.sprite = playerInventory.currentIngredient.ingredientSprite;
-    }
 }
+
+    // public void holdIngredient()
+    // {
+    //     // heldIngredientSprite.sprite = playerInventory.currentIngredient.ingredientSprite;
+    //     // Debug.Log($"added {currentIngredient} to inventory");
+    // }
+
+
+    // CHANGE THISSSSSS
+//     public void holdIngredient()
+//     {
+//         if (playerInventory.currentIngredient != null)
+//         {
+//             if (currentState != PlayerState.interact)
+//             {
+//                 animator.SetBool("receive item", true);
+//                 currentState = PlayerState.interact;
+//                 receivedItemSprite.sprite = playerInventory.currentItem.itemSprite;
+//             }
+//             else
+//             {
+//                 animator.SetBool("receive item", false);
+//                 currentState = PlayerState.idle;
+//                 receivedItemSprite.sprite = null;
+//                 playerInventory.currentItem = null;
+//             }
+//         }
+//     }
+// }
