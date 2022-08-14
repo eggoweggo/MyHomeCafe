@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: Cheese
   m_EditorClassIdentifier: 
   ingredientSprite: {fileID: 21300000, guid: 4e71900b015704d9c80ad3f25b5d432d, type: 3}
+  ingredientText: cheese

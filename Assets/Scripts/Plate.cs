@@ -11,7 +11,21 @@ public class Plate : MonoBehaviour
     [SerializeField]
     private GameObject plate;
     private bool playerInRange;
+    public SpriteRenderer plateDisplay;
+    public Recipe currentRecipe;
 
+    public void Start() 
+    {
+        currentRecipe.RecipeContents();
+    }
+
+    public void changePlate()
+    {
+        // if(playerInventory.ingredients != null)
+        // {
+        //     heldIngredientSprite.sprite = playerInventory.currentIngredient.ingredientSprite;
+        // }
+    }
 
     private void OnTriggerEnter2D(Collider2D other) 
     {

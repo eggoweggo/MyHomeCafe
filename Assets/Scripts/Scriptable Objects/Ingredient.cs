@@ -6,4 +6,6 @@ using UnityEngine;
 public class Ingredient : ScriptableObject
 {
     public Sprite ingredientSprite;
+    [SerializeField]
+    private string ingredientText;
 }

@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: Sugar
   m_EditorClassIdentifier: 
   ingredientSprite: {fileID: 21300000, guid: aebc51d5e0dd7434a966f45d3e9f8a3d, type: 3}
+  ingredientText: sugar

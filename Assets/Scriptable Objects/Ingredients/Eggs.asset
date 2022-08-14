@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: Eggs
   m_EditorClassIdentifier: 
   ingredientSprite: {fileID: 21300000, guid: 74277441dd0cf4bedb68f52ff2d8d756, type: 3}
+  ingredientText: eggs
