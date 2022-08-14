@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f74c94fce844945cbb491644ef3bcc2a, type: 3}
+  m_Name: Bagel
+  m_EditorClassIdentifier: 
+  recipeIngredient1: {fileID: 11400000, guid: 0c8d8a1ab422a4f16a5c7eb7ae1abe51, type: 2}
+  recipeIngredient2: {fileID: 11400000, guid: 9e80f469465254c8a88b2624ffc4f6f0, type: 2}
+  recipeIngredient3: {fileID: 11400000, guid: 85d2bdc9e84ea4e4ea658f465e3b1796, type: 2}
+  recipeIngredient4: {fileID: 0}
+  recipeIngredient5: {fileID: 0}
+  defaultPlate: {fileID: 21300000, guid: f26eeeba6900c48a98bb1241d3054f9c, type: 3}
+  recipeFinished: {fileID: 21300000, guid: e61608a7d96894bb594a1f1ed0c47a96, type: 3}
+  recipeList: []
