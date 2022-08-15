@@ -32,7 +32,7 @@ public class Plate : MonoBehaviour
         }
         // if recipe ingredient list is empty (added all the ingredients)
         // then change plate to finished plate
-        if (currentRecipe.recipeList.Count == 0) 
+        if (currentRecipe.recipeList == null) 
         {
             plateDisplay.sprite = currentRecipe.recipeFinishedSprite;
         }
