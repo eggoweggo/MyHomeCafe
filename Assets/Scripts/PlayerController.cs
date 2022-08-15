@@ -84,6 +84,6 @@ public class PlayerController : MonoBehaviour
         if(playerInventory.ingredients != null)
         {
             heldIngredientSprite.sprite = playerInventory.currentIngredient.ingredientSprite;
-        }
+        } 
     }
 }

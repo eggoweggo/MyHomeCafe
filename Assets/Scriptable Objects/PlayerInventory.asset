@@ -13,5 +13,4 @@ MonoBehaviour:
   m_Name: PlayerInventory
   m_EditorClassIdentifier: 
   currentIngredient: {fileID: 11400000, guid: b915d53b22e854033ae1cb2b73e83d7f, type: 2}
-  ingredients:
-  - {fileID: 11400000, guid: b915d53b22e854033ae1cb2b73e83d7f, type: 2}
+  ingredients: []

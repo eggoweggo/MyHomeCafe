@@ -30,11 +30,12 @@ public class Plate : MonoBehaviour
         {
             addIngredientToPlate();
         }
-        // if recipe ingredient list is empty (added all the ingredients)
+        // if recipe ingredient list is empty (added all ingredients)
         // then change plate to finished plate
-        if (currentRecipe.recipeList == null) 
+        if (currentRecipe.recipeList.Count == 0)
         {
             plateDisplay.sprite = currentRecipe.recipeFinishedSprite;
+            Debug.Log("Recipe Finished!");
         }
     }
 
@@ -44,20 +45,21 @@ public class Plate : MonoBehaviour
         if(currentRecipe.recipeList.Contains(playerInventory.currentIngredient))
         {
             currentRecipe.recipeList.Remove(playerInventory.currentIngredient);
+            Debug.Log("You added it to the plate and removed from the recipe list");
+            playerInventory.ingredients.RemoveAt(0);
+            Debug.Log("You removed the ingredient from inventory");
         }
     }
 
-    private void changePlate()
-    {
-        // if(playerInventory.ingredients != null)
-        // {
-        //     heldIngredientSprite.sprite = playerInventory.currentIngredient.ingredientSprite;
-        // }
-        if(currentRecipe.recipeList.Contains(playerInventory.currentIngredient))
-        {
-            currentRecipe.recipeList.Remove(playerInventory.currentIngredient);
-        }
-    }
+    // private void changePlate()
+    // {
+    //     // if recipe ingredient list is empty (added all the ingredients)
+    //     // then change plate to finished plate
+    //     if (currentRecipe.recipeList == null) 
+    //     {
+    //         plateDisplay.sprite = currentRecipe.recipeFinishedSprite;
+    //     }
+    // }
 
     private void OnTriggerEnter2D(Collider2D other) 
     {

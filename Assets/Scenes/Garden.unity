@@ -1169,6 +1169,10 @@ PrefabInstance:
       propertyPath: playerPosition.y
       value: 0.39
       objectReference: {fileID: 0}
+    - target: {fileID: 7317656014018196047, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
+      propertyPath: heldIngredientSprite
+      value: 
+      objectReference: {fileID: 93579249}
     m_RemovedComponents:
     - {fileID: 6862358277186163693, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}

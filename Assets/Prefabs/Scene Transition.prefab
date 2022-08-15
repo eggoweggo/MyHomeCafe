@@ -72,11 +72,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac8a54dafd0564fc089e39a6dd964499, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: 
-  playerPosition: {x: 0, y: 0}
-  playerStorage: {fileID: 0}
-  raiseItem: {fileID: 0}
-  playerInventory: {fileID: 0}
+  sceneToLoad: cafe scene
+  playerPosition: {x: 1.32, y: -0.2}
+  playerStorage: {fileID: 11400000, guid: b8d1a25f9990f4175988c13324260d5b, type: 2}
+  raiseItem: {fileID: 11400000, guid: cd41cba1ed72b48f79879674732dc0d6, type: 2}
+  playerInventory: {fileID: 11400000, guid: bdf1bbd519f7d40bd82be0d927ea9a42, type: 2}
+  heldIngredientSprite: {fileID: 0}
 --- !u!114 &6862358277186163693
 MonoBehaviour:
   m_ObjectHideFlags: 0

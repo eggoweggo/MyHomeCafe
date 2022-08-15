@@ -5179,6 +5179,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1539825257032825436, guid: 479794463823d43059b099eb1204c28a, type: 3}
   m_PrefabInstance: {fileID: 1492626829}
   m_PrefabAsset: {fileID: 0}
+--- !u!212 &1492626832 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 1539825257032825411, guid: 479794463823d43059b099eb1204c28a, type: 3}
+  m_PrefabInstance: {fileID: 1492626829}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1718964736
 GameObject:
   m_ObjectHideFlags: 0
@@ -8247,28 +8252,8 @@ PrefabInstance:
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 7317656014018196047, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
-      propertyPath: raiseItem
+      propertyPath: heldIngredientSprite
       value: 
-      objectReference: {fileID: 11400000, guid: cd41cba1ed72b48f79879674732dc0d6, type: 2}
-    - target: {fileID: 7317656014018196047, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
-      propertyPath: sceneToLoad
-      value: cafe scene
-      objectReference: {fileID: 0}
-    - target: {fileID: 7317656014018196047, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
-      propertyPath: playerStorage
-      value: 
-      objectReference: {fileID: 11400000, guid: b8d1a25f9990f4175988c13324260d5b, type: 2}
-    - target: {fileID: 7317656014018196047, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
-      propertyPath: playerInventory
-      value: 
-      objectReference: {fileID: 11400000, guid: bdf1bbd519f7d40bd82be0d927ea9a42, type: 2}
-    - target: {fileID: 7317656014018196047, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
-      propertyPath: playerPosition.x
-      value: 1.32
-      objectReference: {fileID: 0}
-    - target: {fileID: 7317656014018196047, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
-      propertyPath: playerPosition.y
-      value: -0.2
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1492626832}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95e0b6f9856364ae49adbc366daac068, type: 3}
