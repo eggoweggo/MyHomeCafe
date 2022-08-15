@@ -8981,7 +8981,7 @@ PrefabInstance:
     - target: {fileID: 1664474470607167577, guid: bc90e6d95f9f0442c810a616d7047f01, type: 3}
       propertyPath: heldIngredientSprite
       value: 
-      objectReference: {fileID: 1539825257032825411, guid: 479794463823d43059b099eb1204c28a, type: 3}
+      objectReference: {fileID: 251112520}
     - target: {fileID: 3012688163853799737, guid: bc90e6d95f9f0442c810a616d7047f01, type: 3}
       propertyPath: signalEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 

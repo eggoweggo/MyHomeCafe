@@ -17,7 +17,7 @@ public class SceneTransition : MonoBehaviour
             SceneManager.LoadScene(sceneToLoad);
         }
     }
-    private void Update() 
+    private void Start() 
     {
         raiseItem.Raise();
     }

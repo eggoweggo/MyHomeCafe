@@ -34,7 +34,6 @@ public class DetectObject : MonoBehaviour
     {
         if(other.CompareTag("Player")) 
         {
-            Debug.Log("Player in range");
             playerInRange = true;
             ingredient_text.SetActive(true);
         }
@@ -44,7 +43,6 @@ public class DetectObject : MonoBehaviour
     {
         if(other.CompareTag("Player")) 
         {
-            Debug.Log("Player left range");
             playerInRange = false;
             ingredient_text.SetActive(false);
         }

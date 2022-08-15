@@ -65,7 +65,6 @@ public class Plate : MonoBehaviour
     {
         if(other.CompareTag("Player")) 
         {
-            Debug.Log("Player in range");
             playerInRange = true;
             plate_text.SetActive(true);
         }
@@ -75,7 +74,6 @@ public class Plate : MonoBehaviour
     {
         if(other.CompareTag("Player")) 
         {
-            Debug.Log("Player left range");
             playerInRange = false;
             plate_text.SetActive(false);
         }

@@ -84,6 +84,7 @@ public class PlayerController : MonoBehaviour
         if(playerInventory.ingredients != null)
         {
             heldIngredientSprite.sprite = playerInventory.currentIngredient.ingredientSprite;
+            Debug.Log("Item sprite has changed to current ingredient in inventory");
         } 
     }
 }
