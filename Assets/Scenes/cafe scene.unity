@@ -4433,7 +4433,7 @@ MonoBehaviour:
   playerInventory: {fileID: 11400000, guid: bdf1bbd519f7d40bd82be0d927ea9a42, type: 2}
   plate_text: {fileID: 815524522}
   plate: {fileID: 406545526}
-  plateDisplay: {fileID: 0}
+  plateDisplay: {fileID: 406545530}
   currentRecipe: {fileID: 11400000, guid: 0862248d9d5b64794a943b54772dd1e1, type: 2}
 --- !u!61 &406545529
 BoxCollider2D:

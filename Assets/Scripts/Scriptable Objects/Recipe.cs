@@ -10,13 +10,11 @@ public class Recipe : ScriptableObject
     public Ingredient recipeIngredient3;
     public Ingredient recipeIngredient4;
     public Ingredient recipeIngredient5;
-    [SerializeField]
-    private Sprite defaultPlate;
-    [SerializeField]
-    private Sprite recipeFinished;
+    public Sprite defaultPlateSprite;
+    public Sprite recipeFinishedSprite;
     public List<Ingredient> recipeList = new List<Ingredient>();
 
-    public void RecipeContents()
+    public void loadRecipeContents()
     {
         if (recipeIngredient1 != null)
         {
@@ -46,7 +44,7 @@ public class Recipe : ScriptableObject
         // var count = 5;
         // while(count > 0) 
         // {
-        //     if (recipeIngredient{count} != null)
+        //     if (recipeIngredient != null)
         //     {
         //         // otherwise just add the ingredient to inventory
         //         recipeList.Add(recipeIngredient1);
