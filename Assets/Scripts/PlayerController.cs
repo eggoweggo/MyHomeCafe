@@ -32,8 +32,14 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    public void FixedUpdate() 
+    {
+        // check if inventory empty and update held sprite to empty
+        if(playerInventory.ingredients.Count == 0) 
+        {
+            heldIngredientSprite.sprite = null;
+        }
 
-    public void FixedUpdate() {
         // If movement input is not zero, try to move
         if(movementInput != Vector2.zero){
             bool success = TryMove(movementInput);
