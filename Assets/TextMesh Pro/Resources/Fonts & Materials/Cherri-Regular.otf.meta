@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: abb6b09e5d1934613ac9ed244525ffc1
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Cherri
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 01055def516e64cdf9367d2a82f3f549, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

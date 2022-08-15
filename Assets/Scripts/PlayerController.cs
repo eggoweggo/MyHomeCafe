@@ -26,6 +26,10 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         transform.position = startingPosition.initialValue;
+        if(playerInventory.ingredients.Count == 0) 
+        {
+            heldIngredientSprite.sprite = null;
+        }
     }
 
 
@@ -81,10 +85,15 @@ public class PlayerController : MonoBehaviour
 
     public void RaiseItem()
     {
-        if(playerInventory.ingredients != null)
+        // check if inventory empty then change sprite to empty
+        if (playerInventory.ingredients.Count == 0)
         {
+            heldIngredientSprite.sprite = null;
+        } else if(playerInventory.ingredients != null)
+        {
+            // if ingredient in inventory, change sprite to held ingredient's sprite
             heldIngredientSprite.sprite = playerInventory.currentIngredient.ingredientSprite;
             Debug.Log("Item sprite has changed to current ingredient in inventory");
-        } 
+        }
     }
 }

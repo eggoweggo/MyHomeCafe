@@ -35,7 +35,6 @@ public class Plate : MonoBehaviour
         if (currentRecipe.recipeList.Count == 0)
         {
             plateDisplay.sprite = currentRecipe.recipeFinishedSprite;
-            Debug.Log("Recipe Finished!");
         }
     }
 
@@ -50,16 +49,6 @@ public class Plate : MonoBehaviour
             Debug.Log("You removed the ingredient from inventory");
         }
     }
-
-    // private void changePlate()
-    // {
-    //     // if recipe ingredient list is empty (added all the ingredients)
-    //     // then change plate to finished plate
-    //     if (currentRecipe.recipeList == null) 
-    //     {
-    //         plateDisplay.sprite = currentRecipe.recipeFinishedSprite;
-    //     }
-    // }
 
     private void OnTriggerEnter2D(Collider2D other) 
     {
