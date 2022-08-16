@@ -32,11 +32,9 @@ public class RecipeUI : MonoBehaviour
             if (recipeMaximized.activeInHierarchy) 
             {
                 recipeMaximized.SetActive(false);
-                Debug.Log("UI closed");
             } else 
             {
                 recipeMaximized.SetActive(true);
-                Debug.Log("UI open");
             }
         }
     }
