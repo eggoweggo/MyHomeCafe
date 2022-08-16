@@ -5753,6 +5753,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7046115311131862271, guid: 6fd893342f6fd458293349bed141767a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7046115311758700613, guid: 6fd893342f6fd458293349bed141767a, type: 3}
       propertyPath: m_Name
       value: Canvas
@@ -13523,12 +13527,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   recipeMaximized: {fileID: 386452755}
   recipeTitle: {fileID: 0}
-  recipleTitleDisplay: 
   recipeText: {fileID: 0}
-  recipeIngredientDisplay: 
   recipeUIOpen: 0
   checkmark: {fileID: 0}
   checkbox: {fileID: 0}
+  currentRecipe: {fileID: 0}
 --- !u!1 &2142456175
 GameObject:
   m_ObjectHideFlags: 0
@@ -13763,7 +13766,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4383354073900042499, guid: bc90e6d95f9f0442c810a616d7047f01, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.2
+      value: -0.751
       objectReference: {fileID: 0}
     - target: {fileID: 4383354073900042499, guid: bc90e6d95f9f0442c810a616d7047f01, type: 3}
       propertyPath: m_LocalPosition.z

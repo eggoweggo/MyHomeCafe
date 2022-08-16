@@ -7,17 +7,17 @@ public class RecipeUI : MonoBehaviour
 {
     public GameObject recipeMaximized;
     public Text recipeTitle;
-    public string recipleTitleDisplay;
     public Text recipeText;
-    public string recipeIngredientDisplay;
     public bool recipeUIOpen;
     public GameObject checkmark;
     public GameObject checkbox;
+    public Recipe currentRecipe;
+    
 
 
     private void Start() 
     {
-        
+        // changeIngredientText(currentRecipe);
     }
 
     // Update is called once per frame
@@ -25,6 +25,7 @@ public class RecipeUI : MonoBehaviour
     {
         displayRecipeUI();
     }
+
     private void displayRecipeUI()
     {
         if(Input.GetKeyDown(KeyCode.Q))
@@ -38,5 +39,10 @@ public class RecipeUI : MonoBehaviour
             }
         }
     }
+
+    // private void changeIngredientText(currentRecipe)
+    // {
+    //     recipeTitle.text = currentRecipe.recipeTitleDisplay;
+    // }
 
 }

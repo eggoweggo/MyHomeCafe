@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f74c94fce844945cbb491644ef3bcc2a, type: 3}
   m_Name: StrawberryCheesecake
   m_EditorClassIdentifier: 
+  recipeTitleDisplay: 
   recipeIngredient1: {fileID: 11400000, guid: b915d53b22e854033ae1cb2b73e83d7f, type: 2}
   recipeIngredient2: {fileID: 11400000, guid: 85d2bdc9e84ea4e4ea658f465e3b1796, type: 2}
   recipeIngredient3: {fileID: 11400000, guid: 072841cb26baa435cb01a94cf913596d, type: 2}

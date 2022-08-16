@@ -5,6 +5,7 @@ using UnityEngine;
 [CreateAssetMenu]
 public class Recipe : ScriptableObject 
 {
+    public string recipeTitleDisplay;
     public Ingredient recipeIngredient1;
     public Ingredient recipeIngredient2;
     public Ingredient recipeIngredient3;
